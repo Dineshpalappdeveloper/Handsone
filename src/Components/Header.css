@@ -1,0 +1,18 @@
+.main_header{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: black;
+    background-color: aqua;
+}
+p{
+   writing-mode: vertical-rl;
+transform: rotateZ(180deg);
+font-size: 20px;
+color: black;
+  
+}
+.siren{
+    font-size: 50px;
+    color: black;
+}

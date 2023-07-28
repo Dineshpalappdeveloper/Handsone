@@ -1,0 +1,39 @@
+h1{
+    color: aquamarine;
+}
+.link{
+    background-color: antiquewhite;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 15% ;
+    font-size: 32px;
+    text-decoration: none;
+    border-bottom: 2px solid rgb(213, 205, 205);
+}
+.none{
+    text-decoration: none;
+    font-size: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:300px) and (max-width:550px) {
+    .nav{
+        background-color: black;
+    }
+    .none{
+        text-decoration: none;
+        font-size: 26px;
+        display: none;
+    }
+}
