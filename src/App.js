@@ -3,23 +3,26 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Nav from './Components/Nav';
 import Home from './Pages/Home';
-import Details from './Pages/Details';
+
 import Food from './Pages/Food';
 import Fitness from './Pages/Fitness';
 import Technology from './Pages/Technology';
 import Hollywood from './Pages/Hollywood';
 import Bollywood from './Pages/Bollywood';
 import Header from './Components/Header';
+import Details from './Pages/Details';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <details> */}
-     
+    
         <Header/>
        <BrowserRouter>
        <Nav/>
+       <Details>
+     
+       
        <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/bollywood' element={<Bollywood/>} />
@@ -28,11 +31,12 @@ function App() {
         <Route path='/fitness' element={<Fitness/>} />
         <Route path='/food' element={<Food/>} />
     
-        <Route path='*' element={<Details/>} />
+        {/* <Route path='*' element={<Details/>} /> */}
        </Routes>
+       </Details>
        </BrowserRouter>
             
-       {/* </details> */}
+  
       </header>
     </div>
   );

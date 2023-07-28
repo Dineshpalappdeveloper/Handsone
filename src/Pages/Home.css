@@ -1,0 +1,39 @@
+.left-card1{
+    height: 400px;
+    width: 500px;
+    margin-right: 20px;
+
+}
+.home-first-card-containeer{
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    box-sizing: border-box;
+    margin-top: 4px;
+    padding: 2px 120px;
+   
+    /* margin: 1px 50px; */
+}
+.left-side{
+    height: 400px;
+   width: 500px;
+}
+.right-side{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    /* width: 60%; */
+}
+.left-card1{
+    height: 500px;
+    width: 690px;
+}
+.left-card2{
+    height: 240px;
+    width: 350px;
+}
+.left-card3{
+    height: 240px;
+    margin-top: 20px;
+    width: 350px;
+}

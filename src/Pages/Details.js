@@ -1,8 +1,11 @@
 import React from 'react'
 import { createContext } from 'react'
 import { useState } from 'react'
+// import Home from './Home';
+// import Hollywood from './Hollywood';
+// import Bollywood from './Bollywood';
 
-export const store = createContext();
+export const Store = createContext();
 const Details = (props) => {
   const [details,setDetails]=useState([
  {
@@ -14,10 +17,10 @@ const Details = (props) => {
  },
  {
   "id":2,
-  "title":"",
+  "title":"The Dinesh pal",
   "img":"https://resizing.flixster.com/ITt1FPrFePNR6FSqZrZK7BocG2U=/ems.cHJkLWVtcy1hc3NldHMvdHZzZWFzb24vUlRUVjEwMTMyOTMud2VicA==",
-  "category":"Bollywood",
-  "description":""
+  "category":"Hollywood",
+  "description":"hello dinesh"
  },
  {
   "id":3,
@@ -69,7 +72,7 @@ const Details = (props) => {
   "description":""
  },
  {
-  "id":70,
+  "id":10,
   "title":"",
   "img":"",
   "category":"Bollywood",
@@ -78,10 +81,11 @@ const Details = (props) => {
   ])
   return (
     <div>
-      <store.Provider value={[details,setDetails]}>
-        {props.children}
-      </store.Provider>
-      {/* <h1>Details </h1> */}
+      <Store.Provider value={[details,setDetails]}>
+{props.children}
+
+      </Store.Provider>
+
     </div>
   )
 }
