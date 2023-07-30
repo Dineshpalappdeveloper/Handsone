@@ -37,7 +37,7 @@ const Nav = () => {
           <h4>
        
               <NavLink to={"/fitness"} className={"none"} >
-              Fitness
+               Bihar Tourism
               </NavLink>
    
           </h4>
