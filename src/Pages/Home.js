@@ -27,7 +27,7 @@ const Home = () => {
         </div>
         <div className="right-side">
           {details
-            .filter((item) => item.id === 1)
+            .filter((item) => item.id === 15)
             .map((data) => {
               return (
                 <>
@@ -42,7 +42,7 @@ const Home = () => {
               );
             })}
           {details
-            .filter((item) => item.id === 1)
+            .filter((item) => item.id === 11)
             .map((data) => {
               return (
                 <>
@@ -91,7 +91,7 @@ const Home = () => {
           </div>
           <div className="latest-one">
             {details
-              .filter((item) => item.id === 1)
+              .filter((item) => item.id === 15)
               .map((data) => {
                 return (
                   <>
@@ -117,7 +117,7 @@ const Home = () => {
           </div>
           <div className="latest-one">
             {details
-              .filter((item) => item.id === 1)
+              .filter((item) => item.id === 11)
               .map((data) => {
                 return (
                   <>
@@ -142,6 +142,7 @@ const Home = () => {
               })}
           </div>
         </div>
+        
         <h3 className="sub-title">Latest Articles</h3>
         <hr className="sub-heading-hr" />
         <div className="latest-Articles">
@@ -150,7 +151,7 @@ const Home = () => {
               <hr className="Articles-hr" />
 
               {details
-                .filter((item) => item.id === 1)
+                .filter((item) => item.id === 12)
                 .map((data) => {
                   return (
                     <>
@@ -183,7 +184,7 @@ const Home = () => {
               <hr className="Articles-hr" />
 
               {details
-                .filter((item) => item.id === 1)
+                .filter((item) => item.id === 13)
                 .map((data) => {
                   return (
                     <>
@@ -216,7 +217,7 @@ const Home = () => {
               <hr className="Articles-hr" />
 
               {details
-                .filter((item) => item.id === 1)
+                .filter((item) => item.id === 14)
                 .map((data) => {
                   return (
                     <>
@@ -249,7 +250,7 @@ const Home = () => {
               <hr className="Articles-hr" />
 
               {details
-                .filter((item) => item.id === 1)
+                .filter((item) => item.id === 16)
                 .map((data) => {
                   return (
                     <>
@@ -288,7 +289,7 @@ const Home = () => {
           <div className="top-post-parent">
             <div className="top-post-image-one">
               {details
-                .filter((item) => item.id === 1)
+                .filter((item) => item.id === 17)
                 .map((data) => {
                   return (
                     <>
@@ -316,7 +317,7 @@ const Home = () => {
               <div className="top-post-one-data">
           
                 {details
-                  .filter((item) => item.id===1 ) 
+                  .filter((item) => item.id===18 ) 
                   .map((data) => {
                  
                     return (
@@ -357,7 +358,7 @@ const Home = () => {
       
             <div className="latest-one">
             {details
-              .filter((item) => item.id === 1)
+              .filter((item) => item.id === 19)
               .map((data) => {
                 return (
                   <>
@@ -392,7 +393,7 @@ const Home = () => {
           <hr className="top-post-divider3"/>
           <div className="latest-one top-post3">
             {details
-              .filter((item) => item.id === 1)
+              .filter((item) => item.id === 20)
               .map((data) => {
                 return (
                   <>
@@ -438,7 +439,7 @@ const Home = () => {
                <div className="the-latest-parent the-Stories-parent">
           <div className="latest-one">
             {details
-              .filter((item) => item.id === 1)
+              .filter((item) => item.id === 18)
               .map((data) => {
                 return (
                   <>
@@ -460,7 +461,7 @@ const Home = () => {
           </div>
           <div className="latest-one">
             {details
-              .filter((item) => item.id === 1)
+              .filter((item) => item.id === 19)
               .map((data) => {
                 return (
                   <>
@@ -482,7 +483,7 @@ const Home = () => {
           </div>
           <div className="latest-one">
             {details
-              .filter((item) => item.id === 1)
+              .filter((item) => item.id === 20)
               .map((data) => {
                 return (
                   <>

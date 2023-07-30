@@ -63,7 +63,7 @@ const Food = () => {
               <div className="top-post-one-data">
           
                 {details
-                  .filter((item) => item.id===1 ) 
+                  .filter((item) => item.id===26 ) 
                   .map((data) => {
                  
                     return (
@@ -104,7 +104,7 @@ const Food = () => {
       
             <div className="latest-one">
             {details
-              .filter((item) => item.id === 1)
+              .filter((item) => item.id === 25)
               .map((data) => {
                 return (
                   <>
@@ -139,7 +139,7 @@ const Food = () => {
           <hr className="top-post-divider3"/>
           <div className="latest-one top-post3">
             {details
-              .filter((item) => item.id === 1)
+              .filter((item) => item.id === 24)
               .map((data) => {
                 return (
                   <>

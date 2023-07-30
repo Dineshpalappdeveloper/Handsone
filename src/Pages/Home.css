@@ -72,7 +72,7 @@ height: 15%;
 }
 .latest-card1{
  height: 210px;
- width: 100%;
+ width: 310px;
 }
 .travel-time{
     opacity: 30%;
@@ -148,7 +148,7 @@ height: 15%;
 .top-post-details-parent{
     /* text-align: start; */
     box-sizing: border-box;
-    background-color: aqua;
+    background-color: rgb(255, 230, 0);
     width: 260px;
     text-align: left;
     height: 590px;
