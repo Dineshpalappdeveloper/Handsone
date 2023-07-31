@@ -2,7 +2,8 @@ import React from "react";
 import { useContext } from "react";
 import { Store } from "./Details";
 import "./Home.css";
-const Home = () => {
+import { NavLink } from "react-router-dom";
+const Home = (props) => {
   const [details] = useContext(Store);
   console.log(details);
   return (
@@ -15,11 +16,15 @@ const Home = () => {
               return (
                 <>
                   {
+                       <NavLink to={`/${data.id}`} className={"home1"} >
+                 
+                  
                     <img
                       src={data.img}
                       alt="not found"
                       className={"left-card1"}
                     />
+                       </NavLink>
                   }
                 </>
               );
@@ -32,11 +37,13 @@ const Home = () => {
               return (
                 <>
                   {
+                           <NavLink to={`/${data.id}`} className={"home1"} >
                     <img
                       src={data.img}
                       alt="not found"
                       className={"left-card2"}
                     />
+                    </NavLink>
                   }
                 </>
               );
