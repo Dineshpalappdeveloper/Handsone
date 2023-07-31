@@ -4,15 +4,15 @@ const Header = () => {
   return (
     <div>
       <div className='main_header'>
-        {/* <div> */}
-    {/* <img src='../logo/menu(2)' /> */}
+        <div className='main_header'>
+    
        
        <p>The</p>
        <h1 className='siren'>Siren</h1>
-       {/* </div> */}
-       {/* <div> */}
-    
-       {/* </div> */}
+       </div>
+       <div className='hamber'>
+        =
+       </div>
       </div>
     </div>
   )

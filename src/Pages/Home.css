@@ -233,3 +233,120 @@ width: 320%;
 .latest-stories-divider-last{
     margin-top:-200px;
 }
+.hrNone{
+    display: none;
+}
+
+/* //  mobileview */
+@media (min-width:270px) and (max-width:580px) {
+    .home-first-card-containeer{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        box-sizing: border-box;
+        margin-top: 4px;
+        padding: 2px 1%;
+    }
+    .left-card1{
+        height: 300px;
+     width: 370px;
+   
+    }
+    .left-card2{
+       display: none;
+    }
+    .left-card3{
+    display: none;
+    }
+    .the-latest-parent{
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        flex-direction: column;
+        margin-top: 4px;
+        text-align: center;
+       margin-left: -8%;
+    }
+    .sub-title{
+        writing-mode: sideways-lr;
+        text-align: left;
+        margin-left: 3%;
+        font-size: 24px;
+        font-weight: 900;
+    }
+    .sub-heading-hr{
+        height: 3px;
+        background-color: red;
+        width: 15%;
+        margin-left: 20px;
+      text-align: start;
+    
+    }
+    .latest-one{
+      
+        height: 390px;
+        width: 100%;
+        margin: 10px;
+        box-sizing: border-box;
+        
+    }
+    .latest-Articles-parent{
+        display: flex;
+        width: 300px;
+      
+        box-sizing: border-box;
+    }
+    .article-image-details-parent{
+        flex-direction: column;
+        height: 1800px;
+        margin: 10px;
+        width: 250px;
+        box-sizing: border-box;
+    }
+    .home-first-card-containeer{
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    .articles-one{
+       margin-bottom: 250px;
+    }.advatige{
+        display: none;
+    }.advatige-text{
+        display: none;
+    }
+    .sub-title{
+        margin-left: 50px;
+    }.sub-heading-hr{
+        margin-left: 50px;
+    }
+    .latest-card1{
+        width: 250px;
+    }
+    .article-image-details{
+        width: 250px;
+    }
+
+    .top-post{
+        margin-top: 1120px;
+        flex-direction: column;
+    }
+    .top-post-parent{
+        display: none;
+    }
+    .top-post-title1,.top-post-hr{
+       margin-left: 5px;
+    }
+    .top-post-one-data{
+        box-sizing: border-box;
+      
+    }.top-posrt-sub-con2{
+      width: 270px;
+      box-sizing: border-box;
+    }
+    .story1{
+        height: 200px;
+    }
+    .hrNone{
+        display: inline-block;
+    }
+}

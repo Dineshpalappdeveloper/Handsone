@@ -437,7 +437,7 @@ const Home = () => {
             <hr className="sub-heading-hr top-post-hr" />
             <hr className="latest-stories-divider" />
                <div className="the-latest-parent the-Stories-parent">
-          <div className="latest-one">
+          <div className="latest-one story1">
             {details
               .filter((item) => item.id === 18)
               .map((data) => {
@@ -453,13 +453,14 @@ const Home = () => {
                           Travel{" "}
                           <span className="travel-time">/August 21 2023</span>{" "}
                         </h4>
+                        <hr className="hrNone"></hr>
                       </div>
                     }
                   </>
                 );
               })}
           </div>
-          <div className="latest-one">
+          <div className="latest-one story1 ">
             {details
               .filter((item) => item.id === 19)
               .map((data) => {
@@ -475,13 +476,17 @@ const Home = () => {
                           Travel{" "}
                           <span className="travel-time">/August 21 2023</span>{" "}
                         </h4>
+                       
                       </div>
+                      
                     }
                   </>
                 );
               })}
           </div>
-          <div className="latest-one">
+          
+          <div className="latest-one story1">
+            
             {details
               .filter((item) => item.id === 20)
               .map((data) => {

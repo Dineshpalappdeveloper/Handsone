@@ -5,25 +5,31 @@
     padding: 28px 15%;
     height: 500px;
 
+    padding-left: 100px;
+
 display: flex;
 justify-content: space-between;
 }
 .Food-containeer{
-    width: 68%;
-    /* background-color: antiquewhite; */
+    width: 75%;
+    box-sizing: border-box;
+ 
 }
 .food-top-post-containeer{
-    width: 37%;
-    /* background-color: rgb(96, 68, 31); */
+    width: 39%;
+
 }
 .the-latest-food-parent{
-    padding: 2px 0.1%;
+    padding: 28px 15%;
     display: flex;
+    box-sizing: border-box;
     /* flex-direction: column; */
 }
 .latest-food1{
-    margin: 0px;
+margin: 0px;
     padding: 0px;
+
+    box-sizing: border-box;
 }
 .Food-hr{
     width: 250%;
@@ -31,6 +37,38 @@ justify-content: space-between;
 .advatige-Food{
  
     height: 700px;
-    margin-top: -200px;
+ 
     border: 2px solid red;
+}
+
+@media (min-width:270px) and (max-width:580px) {
+    .Food-parent{
+        flex-direction: column;
+        width: 350px;
+        margin: 10px;
+        box-sizing: border-box;
+    
+    }
+    .Food-containeer{
+        width: 350px;
+      margin-left: -100px;
+      margin-top: -50px;
+        padding: 0px;
+       margin-bottom: 50px;
+        box-sizing: border-box;
+    }
+  .Food-hr{
+    width: 250px;
+  }
+  .articles-one{
+    margin: 2px;
+  }.article-image-details-parent{
+    margin: 2px;
+    height: 480px;
+  }
+  .top-post-details-parent{
+    margin-top: 1980px;
+    /* margin-top: 100vh; */
+    margin-left: -40px;
+  }
 }

@@ -8,8 +8,8 @@ const Bollywood = () => {
     <div>
     <div className='Food-parent'>
          <div className='Food-containeer'>
-         <h3 className="sub-title latest-food1">Bollywood</h3>
-       <hr className="sub-heading-hr latest-food1" />
+         <h3 className="sub-title latest-food11">Bollywood</h3>
+       <hr className="sub-heading-hr latest-food11" />
        <div className="latest-Articles latest-food1">
          <div className="latest-Articles-parent the-latest-food-parent">
            <div className="articles-one">

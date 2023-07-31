@@ -9,10 +9,15 @@ const Food = () => {
     <div>
      <div className='Food-parent'>
           <div className='Food-containeer'>
-          <h3 className="sub-title latest-food1">Food</h3>
-        <hr className="sub-heading-hr latest-food1" />
+          <h3 className="sub-title ">Food</h3>
+        
+        <hr className="sub-heading-hr " />
+      
         <div className="latest-Articles latest-food1">
+          
+
           <div className="latest-Articles-parent the-latest-food-parent">
+           
             <div className="articles-one">
      
 

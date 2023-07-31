@@ -16,24 +16,31 @@ h1{
     text-decoration: none;
     font-size: 26px;
 }
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width:300px) and (max-width:550px) {
+@media (min-width:270px) and (max-width:580px) {
     .nav{
-        background-color: black;
-    }
+        /* helloo here  */
+        display: none;
+        justify-content: space-around;
+        margin-left: 10%;
+        font-size: 12px;
+        flex-direction: column;
+         
+        text-decoration: none;
+        color: red;
+        border-bottom: 2px solid rgb(213, 205, 205);
+    }  
     .none{
         text-decoration: none;
-        font-size: 26px;
-        display: none;
+        font-size: 16px;
+        color: red;
     }
 }
+
+
+
+
+
+
+
+
+
