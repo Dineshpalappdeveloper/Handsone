@@ -54,11 +54,13 @@ const Home = (props) => {
               return (
                 <>
                   {
+                        <NavLink to={`/${data.id}`} className={"home1"} >
                     <img
                       src={data.img}
                       alt="not found"
                       className={"left-card3"}
                     />
+                    </NavLink>
                   }
                 </>
               );
@@ -77,7 +79,7 @@ const Home = (props) => {
                 return (
                   <>
                     {
-                      <div>
+                     <NavLink to={`/${data.id}`} className={"home1"} >
                         <img
                           src={data.img}
                           alt="not found"
@@ -90,7 +92,7 @@ const Home = (props) => {
                           Travel{" "}
                           <span className="travel-time">/August 21 2023</span>{" "}
                         </h4>
-                      </div>
+                        </NavLink>
                     }
                   </>
                 );
@@ -103,7 +105,7 @@ const Home = (props) => {
                 return (
                   <>
                     {
-                      <div>
+                      <NavLink to={`/${data.id}`} className={"home1"} >
                         <img
                           src={data.img}
                           alt="not found"
@@ -116,7 +118,7 @@ const Home = (props) => {
                           Travel{" "}
                           <span className="travel-time">/August 21 2023</span>{" "}
                         </h4>
-                      </div>
+                        </NavLink>
                     }
                   </>
                 );
@@ -129,7 +131,7 @@ const Home = (props) => {
                 return (
                   <>
                     {
-                      <div>
+                     <NavLink to={`/${data.id}`} className={"home1"} >
                         <img
                           src={data.img}
                           alt="not found"
@@ -142,7 +144,7 @@ const Home = (props) => {
                           Travel{" "}
                           <span className="travel-time">/August 21 2023</span>{" "}
                         </h4>
-                      </div>
+                      </NavLink>
                     }
                   </>
                 );
@@ -163,7 +165,8 @@ const Home = (props) => {
                   return (
                     <>
                       {
-                        <div className="article-image-details-parent">
+                      
+                          <NavLink to={`/${data.id}`} className={"home1 article-image-details-parent"} >
                           <div>
                             <img
                               src={data.img}
@@ -181,7 +184,8 @@ const Home = (props) => {
                               </span>{" "}
                             </span>
                           </div>
-                        </div>
+                     
+                        </NavLink>
                       }
                     </>
                   );
@@ -196,7 +200,7 @@ const Home = (props) => {
                   return (
                     <>
                       {
-                        <div className="article-image-details-parent">
+                          <NavLink to={`/${data.id}`} className={"home1 article-image-details-parent"} >
                           <div>
                             <img
                               src={data.img}
@@ -214,7 +218,7 @@ const Home = (props) => {
                               </span>{" "}
                             </span>
                           </div>
-                        </div>
+                        </NavLink>
                       }
                     </>
                   );
@@ -229,7 +233,7 @@ const Home = (props) => {
                   return (
                     <>
                       {
-                        <div className="article-image-details-parent">
+                         <NavLink to={`/${data.id}`} className={"home1 article-image-details-parent"} >
                           <div>
                             <img
                               src={data.img}
@@ -247,7 +251,7 @@ const Home = (props) => {
                               </span>{" "}
                             </span>
                           </div>
-                        </div>
+                        </NavLink>
                       }
                     </>
                   );
@@ -262,7 +266,7 @@ const Home = (props) => {
                   return (
                     <>
                       {
-                        <div className="article-image-details-parent">
+                          <NavLink to={`/${data.id}`} className={"home1 article-image-details-parent"} >
                           <div>
                             <img
                               src={data.img}
@@ -280,7 +284,7 @@ const Home = (props) => {
                               </span>{" "}
                             </span>
                           </div>
-                        </div>
+                        </NavLink>
                       }
                     </>
                   );
@@ -302,13 +306,13 @@ const Home = (props) => {
                     <>
                       {
                         <div className="top-post-image1">
-                          <div>
+                            <NavLink to={`/${data.id}`} className={"home1 "} >
                             <img
                               src={data.img}
                               alt="not found"
                               className={"top-post-card1"}
                             />
-                          </div>
+                          </NavLink>
                         </div>
                       }
                     </>
@@ -331,7 +335,7 @@ const Home = (props) => {
                       <>
                         {
                         
-                          <div>
+                        <NavLink to={`/${data.id}`} className={"home1 "} >
                             <img
                               src={data.img}
                               alt="not found"
@@ -354,7 +358,7 @@ const Home = (props) => {
                                 </div>
                               </div>
                             </div>
-                          </div>
+                          </NavLink>
                         }
                       </>
                     );
@@ -370,7 +374,8 @@ const Home = (props) => {
                 return (
                   <>
                     {
-                      <div className="top-posrt-sub-con1 top-posrt-sub-con2 ">
+                    
+                             <NavLink to={`/${data.id}`} className={"home1 top-posrt-sub-con1 top-posrt-sub-con2"} >
                       <div>
                         <img
                           src={data.img}
@@ -389,7 +394,8 @@ const Home = (props) => {
                         <div>
                         <span className="top-post-count">2</span>{" "}
                         </div>
-                      </div>
+                        </NavLink>
+                  
                     }
                   </>
                 );
@@ -405,7 +411,8 @@ const Home = (props) => {
                 return (
                   <>
                     {
-                      <div className="top-posrt-sub-con1 top-posrt-sub-con2 ">
+                
+                           <NavLink to={`/${data.id}`} className={"home1 top-posrt-sub-con1 top-posrt-sub-con2"} >
                       <div>
                         <img
                           src={data.img}
@@ -424,7 +431,8 @@ const Home = (props) => {
                         <div>
                         <span className="top-post-count">3</span>{" "}
                         </div>
-                      </div>
+                        </NavLink>
+                 
                     }
                   </>
                 );
@@ -451,7 +459,7 @@ const Home = (props) => {
                 return (
                   <>
                     {
-                      <div>
+                      <NavLink to={`/${data.id}`} className={"home1 "} >
                     
 
                         <h3>{data.title}</h3>
@@ -461,7 +469,7 @@ const Home = (props) => {
                           <span className="travel-time">/August 21 2023</span>{" "}
                         </h4>
                         <hr className="hrNone"></hr>
-                      </div>
+                      </NavLink>
                     }
                   </>
                 );
@@ -474,7 +482,7 @@ const Home = (props) => {
                 return (
                   <>
                     {
-                      <div>
+                           <NavLink to={`/${data.id}`} className={"home1 "} >
                      
                         {/* <br/> */}
                         <h3>{data.title}</h3>
@@ -484,7 +492,7 @@ const Home = (props) => {
                           <span className="travel-time">/August 21 2023</span>{" "}
                         </h4>
                        
-                      </div>
+                      </NavLink>
                       
                     }
                   </>
@@ -500,7 +508,7 @@ const Home = (props) => {
                 return (
                   <>
                     {
-                      <div>
+                       <NavLink to={`/${data.id}`} className={"home1 "} >
                       
                         {/* <br/> */}
                         <h3>{data.title}</h3>
@@ -509,7 +517,7 @@ const Home = (props) => {
                           Travel{" "}
                           <span className="travel-time">/August 21 2023</span>{" "}
                         </h4>
-                      </div>
+                      </NavLink>
                     }
                   </>
                 );

@@ -189,7 +189,7 @@ const Details = (props) => {
       description:"Paneer Pulao Recipe in Hindi http://goo.gl/49cPFc Also known as paneer biryani recipe, paneer pulao recipe in hindi, Cottage Cheese Pulao",
     },  {
       id: 27,
-      title: "Best Hacking Computer",
+      title: " Latest Hacking Computer",
       img: "https://sectigostore.com/blog/wp-content/uploads/2020/12/hacker-motivation-nation-state-actors-1024x640.jpg",
       category: "Tech",
       description:"Hacking is a highly risky game. Most countries have robust security laws and cybersecurity departments working hand-in-hand with local law enforcement officials to catch cybercriminals. To be a successful hacker, apart from having expertise in technology, people also need to know how to monetize their hacking skills without getting caught. You also need to have a strong hacker motivation.",

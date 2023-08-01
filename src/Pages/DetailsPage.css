@@ -1,0 +1,179 @@
+.smallCard-containeer {
+  box-sizing: border-box;
+  width: 450px;
+  border: 2px solid red;
+  height: 80px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
+  margin-top: 5px;
+ 
+  margin-bottom: 5px;
+}
+.small-social {
+  display: flex;
+  box-sizing: border-box;
+  height: 50px;
+  width: 150px;
+  padding: 10px 0px 10px 40px;
+  justify-content: space-between;
+}
+
+.details-parent {
+  text-align: start;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 80px;
+   height: 1000px;
+  align-items: center;
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: 10px;
+}
+.data1-singlepage {
+  display: flex;
+  justify-content: flex-start;
+  width: 30%;
+  text-align: start;
+  align-items: center;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+.smallcard-userdata {
+  display: flex;
+  flex-direction: column;
+}
+.singlepage-img {
+  height: 450px;
+  width: 450px;
+}
+.bg {
+  background-size: cover;
+  background-position: center;
+  margin: 1px;
+  box-sizing: border-box;
+}
+.smallcard-img1 {
+  height: 24px;
+  background-size: cover;
+  background-position: center;
+  margin: 1px;
+  width: 24px;
+}
+.smallcard-persion-img {
+  height: 64px;
+  width: 64px;
+}
+.smallcard-parent {
+  display: flex;
+  align-items: center;
+}
+.smallcard-userdata {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100px;
+  box-sizing: border-box;
+
+  padding: 30px 5px 10px 5px;
+}
+.h5 {
+  font-weight: 900;
+  font-size: large;
+}
+.fixed-parent {
+  height: 70px;
+  width: 180px;
+  position: fixed;
+  top: 40%;
+  z-index: 2;
+  align-items: center;
+  left: 15%;
+}
+
+.fixed-sub {
+  display: flex;
+  margin: 5px;
+  /* justify-content: center; */
+  text-align: center;
+}
+.fixed-img {
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+}
+.language {
+  display: flex;
+  height: 60px;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.bt-language {
+  padding: 4px 6px;
+  background-color: rgb(202, 190, 190);
+  margin: 8px;
+  border: 0px solid grey;
+}
+.heading {
+  color: black;
+  font-weight: 900;
+}
+.fixed-text {
+  padding-top: 7px;
+  margin-left: 10px;
+}
+.clap-counts {
+  align-self: flex-start;
+}
+.write-name {
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+}
+.write-data{
+  padding-top: 15px;
+    margin: 0px;
+}
+.more-serin{
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    z-index: 2;
+ margin-top: 20px;
+    background-color: aqua;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.more-heading{
+    align-self: flex-start;
+    justify-content: flex-start;
+    display: flex;
+ 
+}
+.related{
+    align-self: flex-start;
+    margin-left: -200px;
+    margin-bottom: 7px;
+}
+.more-one{
+    box-sizing: border-box;
+    width: 28%;
+  
+}
+.more-dev{
+    border: 0px solid red;
+    width: 100%;
+    padding-left: 20px;
+   
+}
+.more-main-title{
+    align-self: flex-start;
+}
+.more-parent{
+    display: flex;
+    justify-content: space-between;
+}
