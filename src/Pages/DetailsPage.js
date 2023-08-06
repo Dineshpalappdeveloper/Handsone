@@ -9,26 +9,53 @@ import SmallCard from "../Components/SmallCard";
 import Fixed from "../Components/Fixed";
 import Writer from "../Components/Writer";
 import persion from "../logo/man.png";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 const DetailsPage = () => {
+  const navi = useNavigate();
   const url = window.location.href;
   const orUrl = url.split("/").pop();
-
   let url1 = Number(orUrl);
   const [orid, setid] = useState(url1);
-  // setid(orid + 2)
+  // const [min, setMin] = useState(1)
+  let min1 = 1;
+  console.log(orid);
+  if (url1 < 6) {
+    // setMin(1);
+    min1 = 1;
+  } else if (url1 > 5 && url1 < 10) {
+    // setMin(6);
+    min1 = 6;
+  } else if (url1 > 10 && url1 < 21) {
+    // setMin(11);
+    min1 = 11;
+  } else if (url1 > 20 && url1 < 27) {
+    // setMin(21);
+    min1 = 21;
+  } else {
+    // setMin(28);
+    min1 = 28;
+  }
+  let max = min1 + 2;
+
   console.log("url", url1);
   const [details] = useContext(Store);
   console.log(details);
   function idHandler() {
     const url = window.location.href;
     const orUrl = url.split("/").pop();
-
+    console.log("clicked");
     let url1 = Number(orUrl);
-
     setid(url1);
+    navi(`/${url1}`)
+
   }
+  function navigation() {
+    navi("/");
+  }
+  // useEffect(() => {
+  //   window.scrollTo(50, 8000000000)
+  // }, [])
   console.log("hello");
   return (
     <div>
@@ -85,7 +112,7 @@ const DetailsPage = () => {
           <div className="more-parent">
             <div className="latest-one more-one">
               {details
-                .filter((item) => item.id >= 1 && item.id <= 3)
+                .filter((item) => item.id >= min1 && item.id <= max)
                 .map((data) => {
                   return (
                     <>
@@ -143,6 +170,9 @@ const DetailsPage = () => {
             </div>
           </div>
         </div>
+        <button onClick={navigation} className="goBack">
+          Go Back
+        </button>
       </div>
     </div>
   );

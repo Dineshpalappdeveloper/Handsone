@@ -7,16 +7,18 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   const [count, setCount] = useState(1);
-
   return (
     <div className='header-nav'>
       <div className='main_header'>
-        <div className='main_header'>
+        <NavLink to="/">
 
 
-          <p>The</p>
-          <h1 className='siren'>Siren</h1>
-        </div>
+          <div className='main_header'>
+
+
+            <p>The</p>
+            <h1 className='siren'>Siren</h1>
+          </div> </NavLink>
         <div className='hamber' onClick={() => {
 
           if (count % 2 === 0) {
@@ -31,7 +33,7 @@ const Header = () => {
         }}
         >
           {
-            count == 0 ? <img src={closeLogo} height="40px" width="40px" alt='not found' /> :
+            count === 0 ? <img src={closeLogo} height="40px" width="40px" alt='not found' /> :
               <img src={menulogo} height="40px" width="40px" alt='not found' />
 
           }
@@ -42,7 +44,7 @@ const Header = () => {
 
       <div >
         {
-          count == 0 ? <div className="nav">
+          count === 0 ? <div className="nav">
 
             <h4 >
 
