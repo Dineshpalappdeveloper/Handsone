@@ -10,6 +10,7 @@ const Header = () => {
   return (
     <div className='header-nav'>
       <div className='main_header'>
+
         <NavLink to="/">
 
 
@@ -18,7 +19,10 @@ const Header = () => {
 
             <p>The</p>
             <h1 className='siren'>Siren</h1>
-          </div> </NavLink>
+          </div>
+
+        </NavLink>
+
         <div className='hamber' onClick={() => {
 
           if (count % 2 === 0) {

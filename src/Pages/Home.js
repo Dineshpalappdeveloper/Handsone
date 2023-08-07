@@ -2,12 +2,16 @@ import React from "react";
 import { useContext } from "react";
 import { Store } from "./Details";
 import "./Home.css";
+import "../Components/Footer.css"
 import { NavLink } from "react-router-dom";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 const Home = (props) => {
   const [details] = useContext(Store);
   console.log(details);
   return (
     <div className="home-super-parent">
+      <Header />
       <div className="home-first-card-containeer">
         <div className="left-side">
           {details
@@ -527,6 +531,10 @@ const Home = (props) => {
           <hr className="latest-stories-divider latest-stories-divider-last" />
         </div>
       </div>
+      <diV className="hFooter">
+        <Footer />
+
+      </diV>
     </div>
   );
 };

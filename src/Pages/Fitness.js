@@ -3,11 +3,14 @@ import "./Food.css"
 import { useContext } from "react";
 import { Store } from "./Details";
 import { NavLink } from 'react-router-dom';
+import Header from '../Components/Header';
+import Footer from '../Components/Footer';
 const Fitness = () => {
   const [details] = useContext(Store);
   console.log(details);
   return (
     <div>
+      <Header />
       <div className='Food-parent'>
         <div className='Food-containeer'>
           <h3 className="sub-title latest-food11">Bihar Tourism</h3>
@@ -177,6 +180,11 @@ const Fitness = () => {
           </div>
 
         </div>
+
+      </div>
+
+      <div className='BiharFooter'>
+        <Footer />
 
       </div>
     </div>

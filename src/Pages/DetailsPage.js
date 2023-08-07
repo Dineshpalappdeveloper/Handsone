@@ -10,6 +10,8 @@ import Fixed from "../Components/Fixed";
 import Writer from "../Components/Writer";
 import persion from "../logo/man.png";
 import { NavLink, useNavigate } from "react-router-dom";
+import Header2 from "../Components/Header2";
+import Footer from "../Components/Footer";
 
 const DetailsPage = () => {
   const navi = useNavigate();
@@ -59,6 +61,10 @@ const DetailsPage = () => {
   console.log("hello");
   return (
     <div>
+      <div className="header2Parent">
+        <Header2 />
+
+      </div>
       <div className="latest-one details-parent ">
         {details
           .filter((item) => item.id === url1)
@@ -173,6 +179,9 @@ const DetailsPage = () => {
         <button onClick={navigation} className="goBack">
           Go Back
         </button>
+      </div>
+      <div className="footer-parent">
+        <Footer />
       </div>
     </div>
   );

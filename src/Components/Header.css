@@ -8,8 +8,25 @@
     height: 80px;
 
    margin-top: -15px;
+}.header2{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    justify-content: space-around;
+    /* border: 2px solid red; */
 }
-
+.head2{
+    margin-top: 10px;
+}
+.started {
+    padding: 15px 15px 15px 15px;
+    color: aqua;
+    text-align: center;
+    margin-bottom: -50px;
+    border: 2px solid aqua;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
 *{
     box-sizing: border-box;
 
@@ -68,7 +85,9 @@ h1 {
     margin: 0px;
     padding: 0px;
 }
-
+.hFooter *{
+    color: rgb(245, 250, 254)!important; 
+}
 @media (min-width:270px) and (max-width:580px) {
   .siren{
     font-size: 30px;

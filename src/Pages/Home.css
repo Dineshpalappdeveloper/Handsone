@@ -5,8 +5,15 @@ margin: 0px;
     padding: 0px;
 
 }
-
-
+.hFooter{
+    margin-top: 150px;
+    width: 101.5%;
+    margin-left: 1px;
+    background-color: black;
+}
+.hFooter * {
+    color: rgb(245, 250, 254) !important;
+}
 
 .left-card1{
  
@@ -263,6 +270,9 @@ width: 320%;
         overflow-x: hidden;
    
     }
+        .hFooter {
+            margin-top: 700px;
+        }
     .left-card1{
         height: 300px;
      width: 370px;

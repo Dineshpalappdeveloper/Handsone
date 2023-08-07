@@ -9,7 +9,7 @@ import Fitness from './Pages/Fitness';
 import Technology from './Pages/Technology';
 import Hollywood from './Pages/Hollywood';
 import Bollywood from './Pages/Bollywood';
-import Header from './Components/Header';
+// import Header from './Components/Header';
 import Details from './Pages/Details';
 import DetailsPage from './Pages/DetailsPage';
 
@@ -21,7 +21,7 @@ function App() {
 
 
         <BrowserRouter>
-          <Header />
+
 
           <Details>
 
