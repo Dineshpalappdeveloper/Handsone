@@ -103,6 +103,9 @@ const DetailsPage = () => {
                       {" "}
                       <Writer />
                     </div>
+                    <button className="backWeb" onClick={() => {
+                      navi(-1)
+                    }}>Back</button>
                   </div>
                 }
               </>

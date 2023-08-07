@@ -37,9 +37,12 @@ const Footer = () => {
 
                 <span className='links1'>Web Design</span>
             </div> <div>
-                <h2 className='about1'> Ours NewsLetters</h2>
+                <h2 className='about1'> Contact:- </h2>
                 <hr className='footerHr1' />
+                <span>dinesh_palvansi</span>
+
                 <span>Your Querys or Questions</span>
+
                 <input type='text' placeholder='Write here' className='question' />
                 <button className='qsend'>Send</button>
             </div>
