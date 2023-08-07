@@ -22,21 +22,21 @@ const DetailsPage = () => {
   // const [min, setMin] = useState(1)
   let min1 = 1;
   console.log(orid);
-  if (url1 < 6) {
+  if (url1 < 7) {
     // setMin(1);
     min1 = 1;
-  } else if (url1 > 5 && url1 < 10) {
+  } else if (url1 > 6 && url1 < 13) {
     // setMin(6);
-    min1 = 6;
-  } else if (url1 > 10 && url1 < 21) {
+    min1 = 7;
+  } else if (url1 > 13 && url1 < 23) {
     // setMin(11);
-    min1 = 11;
-  } else if (url1 > 20 && url1 < 27) {
+    min1 = 13;
+  } else if (url1 > 22 && url1 < 29) {
     // setMin(21);
-    min1 = 21;
+    min1 = 23;
   } else {
     // setMin(28);
-    min1 = 28;
+    min1 = 30;
   }
   let max = min1 + 2;
 
