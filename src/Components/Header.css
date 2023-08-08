@@ -12,7 +12,7 @@
     display: flex;
     align-items: center;
     margin: 30px;
-    margin-top: -20px;
+    margin-top: 4px;
     justify-content: space-around;
     /* border: 2px solid red; */
 }
@@ -97,7 +97,8 @@ h1 {
   .siren{
     font-size: 30px;
     color: rgb(164, 110, 110);
-    margin-left: -5px;
+    margin-left: -9px;
+    margin-top: 5px;
 }  
 .nav {
     display: inline-block;
@@ -110,9 +111,10 @@ h1 {
         justify-content: space-between;
         align-items: center;
         font-weight: bold;
-        margin-top: 10px;
+        margin-top: 20px;
         /* margin-top: px; */
-        height: 80px;
+        height: 82px;
+        /* padding-top: 50px; */
         width: 90%;
         border-radius: 8px;
         border: 0px solid;
@@ -145,6 +147,6 @@ h1 {
      color: red;
  }
  P{
-margin-bottom: 0px;
+margin-bottom: 5px;
  }
 }

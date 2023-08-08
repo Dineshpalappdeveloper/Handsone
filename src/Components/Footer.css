@@ -52,16 +52,18 @@
 }
 
 .displayFt {
-    background-color: white;
+    background-color: rgb(18, 17, 17);
     box-sizing: border-box;
     padding: 3px;
+
     margin-top: 5px;
-    display: flex;
+    display: none;
     justify-content: space-around;
 }
 
 .displayFt>img {
-    background-color: white;
+    background-color: black;
+    display: none;
 
 }
 
