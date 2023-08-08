@@ -4,7 +4,9 @@ import intagram from "../logo/instagram.png"
 import twitter from "../logo/twitter.png"
 import youtube from "../logo/youtube.png"
 import "./Footer.css"
+import { useNavigate } from 'react-router-dom'
 const Footer = () => {
+    const nav = useNavigate();
     return (
         <div className='footerContainner'>
             <div >
@@ -23,9 +25,15 @@ const Footer = () => {
             <div>
                 <h2 className='about1'>Usefull Links</h2>
                 <hr className='footerHr1' />
-                <span className='links1'>Home</span>
-                <span className='links1'>Bihar Toriusm</span>
-                <span className='links1'>Technology</span>
+                <span className='links1' onClick={() => {
+                    nav("/")
+                }}>Home</span>
+                <span className='links1' onClick={() => {
+                    nav("/fitness")
+                }}>Bihar Toriusm</span>
+                <span className='links1' onClick={() => {
+                    nav("/technology")
+                }}>Technology</span>
                 <span className='links1'>Privacy Policy</span>
 
             </div> <div>
